@@ -1,0 +1,15 @@
+.social_icons {
+  padding: 1.2rem;
+}
+
+.social_list {
+  display: flex;
+  gap: 1.5rem;
+  font-size: var(--fs-medium);
+}
+
+@media screen and (max-width: 768px) {
+  .social_icons {
+    display: none;
+  }
+}

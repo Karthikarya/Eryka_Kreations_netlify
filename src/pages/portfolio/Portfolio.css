@@ -1,0 +1,25 @@
+.gallery_wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 90%;
+  margin: 4rem auto;
+  gap: 10px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery_wrapper {
+    margin: 2rem auto;
+    gap: 4px;
+  }
+  .column {
+    gap: 4px;
+  }
+}
