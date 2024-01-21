@@ -21,7 +21,7 @@ const Footer = () => {
           <FiInstagram />
         </a>{" "}
       </div>
-      ©2023 Eryka Kreations
+      ©2024 Eryka Kreations
     </footer>
   );
 };
